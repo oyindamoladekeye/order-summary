@@ -3,7 +3,7 @@ body {
 }
 .container {
   background-image: url(../images/pattern-background-desktop.svg);
-  width: 100%;
+  width: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@ body {
 }
 .wrapper {
   background-color: white;
-  width: 30%;
+  /* width: 30%; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -85,6 +85,9 @@ button {
   align-items: center;
   margin: 10x;
 }
+button:hover {
+  cursor: pointer;
+}
 .cancel {
   text-decoration: none;
   padding: 20px;
@@ -104,7 +107,7 @@ button {
 
   .wrapper {
     background-color: white;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     display: flex;
     flex-direction: column;
